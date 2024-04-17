@@ -1,0 +1,121 @@
+html {
+    color: white;
+}
+
+body {
+   background-color: #200718;
+    font-family: "poppins", "sans-serif";
+    margin: 0 auto;
+    max-width: 1120px;
+    background: linear-gradient(150deg, rgb(9, 6, 39), #10045569);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.cabecalho .logo{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
+    font-family: "Raleway", sans-serif;
+    transition: 0.3s;
+}
+
+/* ultilize o ?:hover quando quiser que apareça alguma mensagem ao passar o mouse sobre algo*/
+
+.cabecalho a:hover .logo { color: rgb(64, 7, 117);
+border: 2px solid rgb(63, 3, 90);
+}
+
+
+
+.cabecalho .menu li a{
+font-size: 20px;
+text-transform: capitalize;
+padding: 10px 20px;
+transition: 0.3s;
+}
+
+.cabecalho .menu li a:hover {
+    background-color: #9443d8;
+    border-radius: 50px;
+}
+
+.home {
+    display: flex;
+    min-height: calc(100vh - 125px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.home .informacoes h1{
+    font-family: "raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .informacoes p{
+    font-family: "raleway", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.home .redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+.home .redes-sociais a i{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 26px; 
+    transition: 0.3s;
+}
+
+.home .redes-sociais a i:hover {
+    color: #9443d8;
+    transform: scale(1.1);
+}
+
+.home .container-foto .foto {
+    max-width: 450px;
+    border-radius: 50%;
+    background: linear-gradient(to ritght, #9443d8, #18C063, #00EEA2);
+}
+
+.home .container-foto .img {
+    width: 100%;
+    border-radius: 50%;
+    background: linear-gradient(to ritght, #9443d8, #18C063, #00EEA2);
+
+}
+
+
+.projetos .titulo {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 45px;
+    font-weight: 500;
+
+}
+
